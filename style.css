@@ -20,7 +20,7 @@ body{
     bottom: 0; 
     background: rgba(41, 162, 170, 0.796);
     text-align: center;
-    padding-top: 12%;
+    padding-top: 9%;
     margin-right: 5%;
     overflow: auto;
 }
@@ -146,9 +146,27 @@ body{
 }
 
 .resume-date {
-    color:  rgba(41, 162, 170, 0.796);
+    display: inline-block !important;
 }
 
-/* #work-history h4 .subheading {
-    font-weight: bold !important;
-} */
+#work-history h3{
+    font-family: 'Muli', sans-serif;
+    color: rgb(126, 122, 122);
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#work-history h4{
+    font-family: 'Muli', sans-serif;
+    color: rgba(139, 135, 135, 0.897);
+    font-weight: 100px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.location {
+    font-family: 'Muli', sans-serif;
+    text-transform: uppercase;
+    color: rgba(139, 135, 135, 0.897);
+}
