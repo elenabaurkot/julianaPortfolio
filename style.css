@@ -2,10 +2,17 @@ body{
     margin: 0;
 }
 
+.container-fluid {
+    width: 75%;
+    position: relative;
+    margin-left: 270px;
+}
+
+
 /* Navbar styling  */
 .sidebar {
     float: left;
-    position: relative;
+    position: fixed;
     width: 250px; 
     height: 100% !important;
     top: 0;
@@ -13,8 +20,9 @@ body{
     bottom: 0; 
     background: rgba(41, 162, 170, 0.796);
     text-align: center;
-    padding: 20rem 1rem;
+    padding-top: 12%;
     margin-right: 5%;
+    overflow: auto;
 }
 
 .sidebar a {
@@ -36,17 +44,18 @@ body{
     max-width: 9.4rem;
     max-height: 14rem;
     /* border: .5rem solid rgba(130, 217, 218, 0.878); */
-    border: .5rem solid white;
+    border: .3rem solid white;
 }
 
-.container-fluid {
-    width: 75%;
-}
+/* .fab {
+    border: 1px solid white;
+} */
 
 
 /* About section styling */
 #about {
     padding-top: 13%;
+    padding-bottom: 150px;
 }
 
 #about h1 {
@@ -70,6 +79,7 @@ body{
     /* color: #cdd0cb; */
     color:  rgba(41, 162, 170, 0.796);
 }
+
 #about .subheading {
     font-family: 'Oswald', sans-serif;
     font-weight: lighter;
@@ -86,4 +96,59 @@ body{
 
 #about p {
     color: rgba(72, 70, 70, 0.748);
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 18px;
+    letter-spacing: .5px;
 }
+
+
+/* Work History Section */
+#work-history {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+#work-history h1 {
+    font-family: 'Oswald', sans-serif; 
+    color: rgba(72, 70, 70, 0.748);
+    text-transform: uppercase;
+    font-size: 50px !important;
+}
+
+#work-history h1::first-letter {
+    font-size: 115%;
+}
+
+#work-history h1 .history-header::first-letter {
+    font-size: 115% !important;
+}
+
+#work-history span {
+    display: inline-block;
+}
+
+#work-history p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.resume-button {
+    font-size: 17px;
+}
+
+.resume-content {
+    color: rgba(72, 70, 70, 0.748);
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-size: 18px; */
+    letter-spacing: .5px;
+}
+
+.resume-date {
+    color:  rgba(41, 162, 170, 0.796);
+}
+
+/* #work-history h4 .subheading {
+    font-weight: bold !important;
+} */
