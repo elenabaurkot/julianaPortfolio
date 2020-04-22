@@ -2,15 +2,19 @@ body{
     margin: 0;
 }
 
+/* Navbar styling  */
 .sidebar {
-    position: fixed;
+    float: left;
+    position: relative;
     width: 250px; 
+    height: 100% !important;
     top: 0;
     left: 0; 
     bottom: 0; 
     background: rgba(41, 162, 170, 0.796);
-    padding-top: 20%;
     text-align: center;
+    padding: 20rem 1rem;
+    margin-right: 5%;
 }
 
 .sidebar a {
@@ -19,9 +23,67 @@ body{
     color: white;
     letter-spacing: 2px;
     font-family: 'Rubik', sans-serif;
-    font-size: 19px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .sidebar a::first-letter {
-    font-size: 105%;
+    font-size: 112%;
+}
+
+.img-profile{ 
+    max-width: 9.4rem;
+    max-height: 14rem;
+    /* border: .5rem solid rgba(130, 217, 218, 0.878); */
+    border: .5rem solid white;
+}
+
+.container-fluid {
+    width: 75%;
+}
+
+
+/* About section styling */
+#about {
+    padding-top: 13%;
+}
+
+#about h1 {
+    font-family: 'Oswald', sans-serif; 
+    color: rgba(72, 70, 70, 0.748);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 75px !important;
+}
+
+#about h1::first-letter {
+    font-size: 120%;
+}
+
+#about h1 .last::first-letter {
+    font-size: 120% !important;
+}
+
+#about span {
+    display: inline-block;
+    /* color: #cdd0cb; */
+    color:  rgba(41, 162, 170, 0.796);
+}
+#about .subheading {
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    color:  rgba(41, 162, 170, 0.796);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+#about .subheading a {
+    color: rgba(72, 70, 70, 0.748);
+    text-transform: lowercase;
+}
+
+#about p {
+    color: rgba(72, 70, 70, 0.748);
 }
