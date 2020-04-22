@@ -103,13 +103,13 @@ body{
 }
 
 
-/* Work History Section */
-#work-history {
+/* Work History Section  */
+#work-history, #education, #other {
     padding-top: 100px;
     padding-bottom: 150px;
 }
 
-#work-history h1 {
+#work-history h1, #education h1, #other h1 {
     font-family: 'Oswald', sans-serif; 
     color: rgba(72, 70, 70, 0.748);
     text-transform: uppercase;
@@ -149,24 +149,29 @@ body{
     display: inline-block !important;
 }
 
-#work-history h3{
-    font-family: 'Muli', sans-serif;
+#work-history h3, #education h3{
+    font-family: 'Roboto', sans-serif;
     color: rgb(126, 122, 122);
-    font-weight: lighter;
+    font-weight: 700;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 24px;
+    letter-spacing: 1px;
 }
 
 #work-history h4{
-    font-family: 'Muli', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: rgba(139, 135, 135, 0.897);
-    font-weight: 100px;
-    text-transform: uppercase;
+    font-weight: 500;
+    /* text-transform: uppercase; */
     font-size: 20px;
 }
 
-.location {
-    font-family: 'Muli', sans-serif;
-    text-transform: uppercase;
+.location, .cert {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    /* text-transform: uppercase; */
     color: rgba(139, 135, 135, 0.897);
+    font-size: 17px;
 }
+
+/* Education section */
