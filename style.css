@@ -40,6 +40,12 @@ body{
     font-size: 112%;
 }
 
+.sidebar a:hover {
+    font-size: 25px;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+  }
+
 .img-profile{ 
     max-width: 9.4rem;
     max-height: 14rem;
@@ -147,19 +153,20 @@ body{
 
 .resume-date {
     display: inline-block !important;
+    white-space: nowrap;
 }
 
 #work-history h3, #education h3{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     color: rgb(126, 122, 122);
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     font-size: 24px;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 }
 
 #work-history h4{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     color: rgba(139, 135, 135, 0.897);
     font-weight: 500;
     /* text-transform: uppercase; */
@@ -167,7 +174,7 @@ body{
 }
 
 .location, .cert {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     font-weight: 500;
     /* text-transform: uppercase; */
     color: rgba(139, 135, 135, 0.897);
