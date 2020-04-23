@@ -5,7 +5,7 @@ body{
 .container-fluid {
     width: 75%;
     position: relative;
-    margin-left: 270px;
+    margin-left: 310px;
 }
 
 
@@ -18,7 +18,7 @@ body{
     top: 0;
     left: 0; 
     bottom: 0; 
-    background: rgba(41, 162, 170, 0.796);
+    background: rgba(41, 162, 170, 0.796) !important;
     text-align: center;
     padding-top: 9%;
     margin-right: 5%;
@@ -44,7 +44,7 @@ body{
     font-size: 25px;
     transition: all .3s ease-in-out;
     text-decoration: none;
-  }
+}
 
 .img-profile{ 
     max-width: 9.4rem;
@@ -52,10 +52,6 @@ body{
     /* border: .5rem solid rgba(130, 217, 218, 0.878); */
     border: .3rem solid white;
 }
-
-/* .fab {
-    border: 1px solid white;
-} */
 
 
 /* About section styling */
@@ -182,3 +178,28 @@ body{
 }
 
 /* Education section */
+
+
+
+  
+@media screen and (max-width: 900px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    .container-fluid {margin-left: 50px;}
+    /* div.content {margin-left: 0;} */
+    .img-profile {display: none;}
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+    .img-profile {display: none;}
+  }
+
+
