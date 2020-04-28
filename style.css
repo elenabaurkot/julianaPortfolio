@@ -188,6 +188,19 @@ nav{
     transition: transform 0.3s ease-in;
 }
 
+@media screen and (max-width: 505px){
+    .logo{
+        display: none;
+    }
+    .nav-active{
+        transform: translateY(0%);
+    }
+    .nav-links{
+        opacity: 1;
+        width: 100%;
+    }
+}
+
 @keyframes navLinkFade{
     from{
         opacity: 0;
