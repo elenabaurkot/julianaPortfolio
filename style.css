@@ -184,6 +184,7 @@ nav{
 
 .nav-active{
     transform: translateX(0%);
+    transform: translateY(5%);
     transition: transform 0.3s ease-in;
 }
 
@@ -207,8 +208,6 @@ nav{
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
 }
-
-
 
 
 
