@@ -6,10 +6,8 @@
     <title>Juliana Baurkot</title>
     <!-- fontawesome icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"crossorigin="anonymous"/>
-    <!-- Rubik font -->
-    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-    <!-- Fonts: oswald, roboto, monsterrat fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;549&family=Montserrat:wght@300&family=Roboto:wght@100;300;500;700&display=swap&family=Roboto:wght@100;300&display=swap&family=Muli:wght@700&family=Fjalla+One" rel="stylesheet">
+    <!-- Fonts: oswald, roboto, monsterrat, Rubik fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;549&family=Montserrat:wght@300&family=Roboto:wght@100;300;500;700&display=swap&family=Roboto:wght@100;300&display=swap&family=Muli:wght@700&family=Fjalla+One&family=Rubik&display=swap" rel="stylesheet">
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
@@ -17,15 +15,29 @@
 <body>
 
   <!-- Side Nav -->
-    <div class="sidebar">
+    <nav class="sidebar">
+      <!-- logo -->
+        <div class="logo">
+          <h4>Juliana Baurkot</h4>
+        </div>
+        <!-- portfolio image -->
         <img class="img-fluid img-profile rounded-circle mb-3" src="./assets/images/j.png" alt="profile pic">
-        <a href="#about">About</a>
-        <a href="#work-history">Work History</a>
-        <a href="#education">Education</a>
-        <a href="#other">Other</a>
-        <a href="#">Resume</a>
-        <a href="#"><i class="fab fa-linkedin-in border border-white rounded p-1"></i></a>
-    </div>
+        <!-- nav links -->
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#work-history" id="link">Work History</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#other">Other</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#"><i class="fab fa-linkedin-in border border-white rounded p-1"></i></a></li>
+        </ul>   
+        <!-- Hamburger menu -->
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+      </div>
+    </nav>
 
     <!-- begin main content -->
     <div class="container-fluid">
@@ -119,6 +131,8 @@
 
     </section>
 
-    </div>    
+    </div> 
+    
+    <script src="app.js"></script>
 </body>
 </html>
