@@ -11,6 +11,7 @@
 }
 
 
+/* NAVBAR STYLING */
 nav{
     display: flex; 
     justify-content: space-around;
@@ -75,6 +76,7 @@ nav{
     text-decoration: none;
 }
 
+/* MEDIA QUERIES */
 @media screen and (min-width: 951px){
 /* Navbar styling  */
     .sidebar {
@@ -138,6 +140,9 @@ nav{
         padding: 1.5rem 1rem; 
         justify-content: space-between;
         z-index: 3;
+        position: fixed;
+        width: 100%;
+        background-color: rgba(21, 168, 168, 0.8);
     }
 
     .logo{
@@ -150,8 +155,8 @@ nav{
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: rgb(21, 168, 168); 
-        opacity: .8;
+        background-color: rgb(21, 168, 168, .8); 
+        /* opacity: .8; */
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -184,7 +189,7 @@ nav{
 
 .nav-active{
     transform: translateX(0%);
-    /* transform: translateY(5%); */
+    transform: translateY(29px);
     transition: transform 0.3s ease-in;
 }
 
@@ -198,6 +203,9 @@ nav{
     .nav-links{
         opacity: 1;
         width: 100%;
+    }
+    .nav-active{
+        transform: translateY(18px);
     }
 }
 
@@ -225,7 +233,7 @@ nav{
 
 
 
-/* About section styling */
+/* ABOUT SECTION */
 #about {
     padding-top: 15%;
     padding-bottom: 150px;
@@ -276,7 +284,7 @@ nav{
 }
 
 
-/* Work History Section  */
+/* WORK HISTORY SECTION  */
 #work-history, #education, #other {
     padding-top: 100px;
     padding-bottom: 150px;
@@ -348,6 +356,6 @@ nav{
     font-size: 17px;
 }
 
-/* Education section */
+/* EDUCATION SECTION */
 
 

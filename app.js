@@ -2,7 +2,6 @@ const navSlide = () => {
   const burger = document.querySelector('.burger');
   const nav = document.querySelector('.nav-links');
   const navLinks = document.querySelectorAll('.nav-links li'); 
-  // const link = document.getElementById('link');
   
   burger.addEventListener('click', ()=> {
       // Toggle Nav
@@ -28,15 +27,11 @@ const navClose = () => {
   const burger = document.querySelector('.burger');
   const navLinks = document.querySelectorAll('.nav-links li'); 
 
+  // grabs all of the nav links and closes nav dropdown if any are clicked
   for (let i = 0 ; i < link.length; i++) {
     link[i].addEventListener('click', ()=> {
       nav.classList.toggle('nav-active');
       burger.classList.toggle('toggle');
-    
-  // when user clicks a link close the drop down menu
-  // link.addEventListener('click', ()=> {
-  //   nav.classList.toggle('nav-active');
-  //   burger.classList.toggle('toggle');
 
     // Animate Links
     navLinks.forEach((link, index) => {
@@ -47,7 +42,7 @@ const navClose = () => {
       }
     });
   })
-}
+ }
 };
 
 
