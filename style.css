@@ -145,7 +145,7 @@ nav{
         z-index: 3;
         position: fixed;
         width: 100%;
-        background-color: rgba(21, 168, 168, 0.8);
+        background-color: rgba(21, 168, 168);
         top: 0;
     }
 
@@ -193,7 +193,7 @@ nav{
 
 .nav-active{
     transform: translateX(0%);
-    transform: translateY(7px);
+    /* transform: translateY(7px); */
     transition: transform 0.3s ease-in;
 }
 
