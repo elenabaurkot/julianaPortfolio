@@ -135,6 +135,9 @@ nav{
     body{
         overflow-x: hidden;
     }
+    .container-fluid{
+        margin-top: 50px;
+    }
     nav{
         flex-wrap: wrap;
         padding: 1.5rem 1rem; 
@@ -143,6 +146,7 @@ nav{
         position: fixed;
         width: 100%;
         background-color: rgba(21, 168, 168, 0.8);
+        top: 0;
     }
 
     .logo{
