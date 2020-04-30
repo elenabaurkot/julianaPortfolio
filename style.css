@@ -193,7 +193,7 @@ nav{
 
 .nav-active{
     transform: translateX(0%);
-    transform: translateY(29px);
+    transform: translateY(7px);
     transition: transform 0.3s ease-in;
 }
 
@@ -207,9 +207,6 @@ nav{
     .nav-links{
         opacity: 1;
         width: 100%;
-    }
-    .nav-active{
-        transform: translateY(18px);
     }
 }
 
