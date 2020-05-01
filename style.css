@@ -360,3 +360,28 @@ nav{
 /* EDUCATION SECTION */
 
 
+/* OTHER SECTION */
+.card{
+    /* width: 13rem; */
+    border-radius: 18px;
+    color: red;
+}
+.card-body{
+    background-color: green;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    height: 3rem;
+    text-align: center;
+    vertical-align: center;
+    padding: 0 !important;
+}
+a:hover{
+    text-decoration: none !important;
+}
+.pic{
+    width: 12rem;
+    height: 10rem;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
