@@ -93,6 +93,12 @@ section{
     padding-left: 15%;
     text-decoration: underline;
 }
+h4{
+    font-family: 'Roboto';
+    color: rgb(5, 138, 138);
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
 img{
    padding: 10px;
 }
@@ -104,4 +110,7 @@ img{
 .art{
     width: 350px;
     height: 350px;
+}
+iframe{
+    margin-bottom: 40px;
 }
