@@ -1,0 +1,107 @@
+
+/* Navbar Styling */
+nav{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh; 
+    background-color: rgb(21, 168, 168); 
+    font-family: 'Poppins', sans-serif;
+    padding: 1.5rem 2rem; 
+    z-index: 3;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+.link{ 
+    color: rgb(230, 229, 229);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-weight: bolder;
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(3, 148, 148);
+}
+.link:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+}
+
+.logo{
+    color: rgb(230, 229, 229); 
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+/* main content */
+.container-fluid{
+    text-align: center;
+    padding-top: 130px;
+}
+button{
+    border-radius: 5px;
+    background-color: rgb(3, 148, 148);
+    height: 60px;
+    width: 190px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+button:hover{
+    width: 200px;
+    height: 70px;
+    transition: all .3s ease-in-out;
+    font-weight: bold;
+}
+.buttonLink:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.buttonLink{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    word-wrap: break-word;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+section{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.header {
+    font-family: 'Arial', sans-serif;
+    color: rgb(5, 138, 138);
+    letter-spacing: 4px;
+    font-size: 52px !important;
+    text-align: center;
+    line-height: 80px;
+}
+#teachHeader{
+    margin-bottom: 20px;
+}
+.subHead{
+    font-family: 'Arial', sans-serif;
+    color: rgb(5, 138, 138);
+    letter-spacing: 2px;
+    text-align: left !important;
+    padding-left: 15%;
+    text-decoration: underline;
+}
+img{
+   padding: 10px;
+}
+.row{
+    text-align: center;
+}
+
+/* Image Styling */
+.art{
+    width: 350px;
+    height: 350px;
+}
