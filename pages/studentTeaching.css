@@ -93,7 +93,7 @@ section{
     padding-left: 15%;
     text-decoration: underline;
 }
-h4{
+.student-work-header{
     font-family: 'Roboto';
     color: rgb(5, 138, 138);
     letter-spacing: 2px;
@@ -113,4 +113,8 @@ img{
 }
 iframe{
     margin-bottom: 40px;
+}
+.student-work{
+    width: 600px;
+    height: 700px;
 }
