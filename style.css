@@ -323,6 +323,7 @@ nav{
 #work-history ul {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+    text-align: left !important;
 }
 
 .resume-button {
